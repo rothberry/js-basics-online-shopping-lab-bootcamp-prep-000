@@ -10,7 +10,7 @@ function setCart(c) {
 }
 
 function addToCart(item) {
-  const price = Math.floor(Math.random()*100)
+  var price = Math.floor(Math.random()*100)
   var itemName = {}
   itemName[item] = price
   cart.push(itemName)
@@ -19,12 +19,7 @@ function addToCart(item) {
 }
 
 function viewCart() {
-  // if (cart.length === 0) {
-  //   console.log("Your shopping cart is empty.");
-  // } else {
-  //   var
-  //
-  // }
+
 }
 
 function total() {
